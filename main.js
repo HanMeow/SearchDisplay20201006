@@ -1,5 +1,7 @@
 
 ;(() => {
+    const wrapper = document.querySelector('.wrapper');
+    wrapper.style.display = null;
     const form = document.querySelector('.container .form');
     const { search } = location;
     const searches = search.replace(/^\?/, '').split('&');
