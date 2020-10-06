@@ -46,7 +46,7 @@
     const css = document.createElement('link');
     const script = document.createElement('script');
     css.rel = 'stylesheet';
-    css.src = `style.css?${qs}`;
+    css.href = `style.css?${qs}`;
     script.type = 'application/javascript';
     script.src = `main.js?${qs}`;
     head.appendChild(css);
